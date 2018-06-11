@@ -1,6 +1,6 @@
-# Boilerplate theme [![](https://badge.fury.io/js/jsonresume-theme-boilerplate.svg)](https://www.npmjs.org/package/jsonresume-theme-boilerplate)
+# Handshake Resume Theme
 
-This is the boilerplate theme for [JSON Resume](http://jsonresume.org/).
+This is the default resume theme exported by Handshake
 
 ## Getting started
 
