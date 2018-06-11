@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-boilerplate",
+  "name": "jsonresume-theme-handshake",
   "version": "0.1.2",
-  "description": "Boilerplate theme for JSON Resume",
-  "author": "Mattias Erming",
+  "description": "Handshake theme for JSON Resume",
+  "author": "Andrew Denta",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erming/jsonresume-theme-boilerplate"
+    "url": "https://github.com/erming/jsonresume-theme-handshake"
   },
   "license": "MIT",
   "dependencies": {
