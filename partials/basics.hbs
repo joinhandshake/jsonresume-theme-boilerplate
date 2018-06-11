@@ -1,68 +1,31 @@
 {{#resume.basics}}
 	<h1>{{name}}</h1>
-	<h2>{{label}}</h2>
 	<section id="basics">
 		<div class="contact">
 		{{#if website}}
-		<div class="website">
-			<strong>Website</strong>
-			{{website}}
-		</div>
+		<span class="website">
+			{{website}} |
+		</span>
 		{{/if}}
 		{{#if email}}
-		<div class="email">
-			<strong>Email</strong>
-			{{email}}
-		</div>
+		<span class="email">
+			{{email}} |
+		</span>
 		{{/if}}
 		{{#if phone}}
-		<div class="phone">
-			<strong>Phone</strong>
+		<span class="phone">
 			{{phone}}
-		</div>
+		</span>
 		{{/if}}
 		</div>
-		{{#if summary}}
-		<div class="summary">
-			<p>{{summary}}</p>
-		</div>
-		{{/if}}
 		{{#location}}
 		<h3>Location</h3>
 		<section id="location">
-			{{#if address}}
-			<div class="address">
-				<strong>Address</strong>
-				{{address}}
-			</div>
-			{{/if}}
-			{{#if postalCode}}
-			<div class="postalCode">
-				<strong>Postal code</strong>
-				{{postalCode}}
-			</div>
-			{{/if}}
-			{{#if city}}
-			<div class="city">
-				<strong>City</strong>
-				{{city}}
-			</div>
-			{{/if}}
-			{{#if countryCode}}
-			<div class="countryCode">
-				<strong>Country code</strong>
-				{{countryCode}}
-			</div>
-			{{/if}}
-			{{#if region}}
-			<div class="region">
-				<strong>Region</strong>
-				{{region}}
-			</div>
-			{{/if}}
+			{{address}}, {{city}}, {{countryCode}}, {{postalCode}}
 		</section>
 		{{/location}}
 		{{#if profiles.length}}
+		{{!-- disabling for now, we can configure later
 		<h3>Profiles</h3>
 		<section id="profiles">
 			{{#each profiles}}
@@ -84,7 +47,7 @@
 				{{/if}}
 			</div>
 			{{/each}}
-		</section>
+		</section> --}}
 		{{/if}}
 	</section>
 {{/resume.basics}}
